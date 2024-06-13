@@ -1,7 +1,7 @@
 import qrcode
 from PIL import Image
 
-data = "https://www.linkedin.com/in/arsh-malek-6a808b25a/"
+data = input("please share link:")
 qr = qrcode.QRCode(version=1, box_size=10, border=5)
 
 qr.add_data(data)
